@@ -21,8 +21,9 @@
             android:gravity="center">
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:background="#f28">
 
             <TextView
@@ -31,12 +32,14 @@
                 android:text="Mraiam Gamal"
                 android:gravity="center"
                 android:rotation="-90"
-                android:textSize="14sp"/>
+                android:textStyle="bold"
+                android:textSize="12sp"/>
             </LinearLayout>
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:background="#a58">
             <TextView
                 android:layout_width="match_parent"
@@ -44,12 +47,14 @@
                 android:text="2170008191"
                 android:gravity="center"
                 android:rotation="-90"
-                android:textSize="14sp"/>
+                android:textStyle="bold"
+                android:textSize="10sp"/>
             </LinearLayout>
 
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:background="#C83">
                 <TextView
                 android:layout_width="match_parent"
@@ -57,12 +62,14 @@
                 android:text="Univercity of Dammam"
                 android:gravity="center"
                 android:rotation="-90"
+                android:textStyle="bold"
                 android:textSize="12sp"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="0.75"
                 android:orientation="vertical"
                 android:gravity="center">
 
@@ -73,7 +80,7 @@
                     android:gravity="center"
                     android:background="#C88"
                     android:layout_weight="1"
-                    android:textSize="16sp"/>
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -82,7 +89,7 @@
                     android:gravity="center"
                     android:background="#E78"
                     android:layout_weight="1"
-                    android:textSize="16sp"/>
+                    android:textSize="14sp"/>
 
             </LinearLayout>
 
