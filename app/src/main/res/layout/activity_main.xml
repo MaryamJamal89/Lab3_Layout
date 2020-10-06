@@ -9,10 +9,8 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:padding="10dp"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="#aaa"
         tools:ignore="MissingConstraints">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,38 +20,50 @@
             android:orientation="horizontal"
             android:gravity="center">
 
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#f28">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Mraiam Gamal"
                 android:gravity="center"
-                android:background="#f28"
-                android:layout_weight="1"
+                android:rotation="-90"
                 android:textSize="14sp"/>
+            </LinearLayout>
 
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#a58">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="2170008191"
                 android:gravity="center"
-                android:background="#a58"
-                android:layout_weight="1"
-                android:textSize="13sp"/>
+                android:rotation="-90"
+                android:textSize="14sp"/>
+            </LinearLayout>
 
-            <TextView
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#C83">
+                <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Univercity of Dammam"
                 android:gravity="center"
-                android:background="#C83"
-                android:layout_weight="1"
-                android:textSize="14sp"/>
+                android:rotation="-90"
+                android:textSize="12sp"/>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_weight="0.75"
                 android:gravity="center">
 
                 <TextView
@@ -63,7 +73,7 @@
                     android:gravity="center"
                     android:background="#C88"
                     android:layout_weight="1"
-                    android:textSize="14sp"/>
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -72,7 +82,7 @@
                     android:gravity="center"
                     android:background="#E78"
                     android:layout_weight="1"
-                    android:textSize="14sp"/>
+                    android:textSize="16sp"/>
 
             </LinearLayout>
 
